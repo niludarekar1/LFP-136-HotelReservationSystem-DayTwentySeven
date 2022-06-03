@@ -7,5 +7,9 @@ public class HotelReservationSystem {
 
         HotelReservation hotelReservation = new HotelReservation();
         hotelReservation.addHotel();
+        hotelReservation.addHotel();
+        hotelReservation.addHotel();
+        hotelReservation.printHotel();
+        hotelReservation.cheapestHotel();
     }
 }
